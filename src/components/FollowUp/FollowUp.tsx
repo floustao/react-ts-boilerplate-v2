@@ -8,6 +8,7 @@ export const FollowUp: React.FC = () => {
           reasonnable size or switch state mangement from Array to Map for
           better lookup)
         </li>
+        <li>Allow user to reset the grid</li>
         <li>Truncate values</li>
         <li>
           Replace instructions with error message on top to indicate users of
