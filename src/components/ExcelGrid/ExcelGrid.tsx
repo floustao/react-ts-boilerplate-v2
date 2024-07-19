@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { computeFormula } from "../../utils";
+import { computeFormula } from "./utils";
 
 export const ExcelGrid: React.FC<{ rows: number; cols: number }> = ({
   rows,
