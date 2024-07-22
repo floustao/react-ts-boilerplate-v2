@@ -1,7 +1,4 @@
 import "./App.css";
-import { ExcelInstructions } from "./components/ExcelInstructions";
-import { ExcelGrid } from "./components/ExcelGrid";
-import { FollowUp } from "./components/FollowUp";
 
 function App() {
   return (
@@ -13,10 +10,7 @@ function App() {
         placeContent: "center",
       }}
     >
-      <h1>Excel prototype</h1>
-      <ExcelInstructions />
-      <ExcelGrid rows={10} cols={10} />
-      <FollowUp />
+      <h1>Hello world</h1>
     </div>
   );
 }

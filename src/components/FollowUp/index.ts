@@ -1,1 +1,0 @@
-export { FollowUp } from "./FollowUp";
