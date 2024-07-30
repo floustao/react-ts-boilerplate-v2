@@ -1,16 +1,20 @@
 import "./App.css";
+import { UserComparator } from "./components/UserComparator";
 
 function App() {
   return (
     <div
       style={{
         display: "flex",
-        gap: "8px",
+        gap: "16px",
         flexDirection: "column",
-        placeContent: "center",
+        width: "100%",
+        maxWidth: "800px",
+        height: "100vh",
       }}
     >
-      <h1>Hello world</h1>
+      <h1>Mercury user matching</h1>
+      <UserComparator />
     </div>
   );
 }
